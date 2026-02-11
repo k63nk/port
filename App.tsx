@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Hero from './components/Hero';
 import ColorCloud from './components/ColorCloud';
@@ -42,7 +41,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen selection:bg-accent-yellow selection:text-primary-blue scroll-smooth">
-      {/* Background stars */}
+      {/* Background decorations */}
       <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden select-none">
         <div className="absolute top-[8%] left-[10%] w-10 h-10 hand-drawn-star rotate-12 opacity-80"></div>
         <div className="absolute top-[20%] left-[5%] w-6 h-6 hand-drawn-star -rotate-45 opacity-60"></div>
@@ -73,7 +72,7 @@ const App: React.FC = () => {
       </nav>
 
       <main className="relative z-10">
-        <section id="portfolio" className="pt-20">
+        <section id="portfolio">
           <Hero />
         </section>
         
