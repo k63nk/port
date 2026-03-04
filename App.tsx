@@ -71,7 +71,7 @@ const App: React.FC = () => {
         </div>
       </nav>
 
-      <main className="relative z-10">
+      <main className="relative z-10 pt-28 md:pt-32">
         <section id="portfolio">
           <Hero />
         </section>

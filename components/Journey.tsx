@@ -7,28 +7,28 @@ const Journey: React.FC = () => {
       role: "Thành viên Ban Marketing",
       company: "IBConnect FTU",
       desc: "Tham gia lập kế hoạch và triển khai hoạt động marketing cho fanpage IB Connect FTU, tập trung vào sáng tạo nội dung và thiết kế hình ảnh cho các chiến dịch truyền thông. Góp phần xây dựng hệ thống nội dung thu hút, tăng mức độ kết nối và truyền cảm hứng trong cộng đồng sinh viên Kinh doanh Quốc tế.",
-      img: "https://drive.google.com/file/d/1_VTQUwKjaN_795WGrBtwekqQofbEjg84/view?usp=sharing",
+      img: "https://i.postimg.cc/N0y8gmgj/ib.jpg",
     },
     {
       id: "02",
       role: "Thực tập sinh vận hành sàn E-commerce & Booking KOL",
       company: "Mialala",
       desc: "Hỗ trợ vận hành, phân tích hiệu suất của shop trên các sàn thương mại điện tử Shopee, Tiktok. Phối hợp làm việc với hơn 200 KOL/Influencer trong thực tế trong triển khai chiến dịch, làm việc liên phòng ban trong môi trường kinh doanh năng động.",
-      img: "https://www.pinterest.com/pin/38843615661454856/",
+      img: "https://i.postimg.cc/7LqXwf5P/images.png",
     },
     {
       id: "03",
       role: "Tình nguyện viên Dự án xã hội",
       company: "Tết đong đầy FTU",
       desc: "Tham gia các hoạt động bán hàng gây quỹ nhằm lan tỏa sự quan tâm và hỗ trợ đến những hoàn cảnh khó khăn. Góp phần tổ chức và triển khai các hoạt động ý nghĩa với tinh thần trách nhiệm, sự đồng cảm và mong muốn tạo ra tác động tích cực cho cộng đồng.",
-      img: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=600",
+      img: "https://i.postimg.cc/XN98Gf9j/tet.jpg",
     },
     {
       id: "04",
       role: "Phó Trưởng ban Gây quỹ",
       company: "Dự án Student for Society FTU",
       desc: "Phụ trách lên kế hoạch và triển khai các hoạt động gây quỹ nhằm đảm bảo nguồn lực tài chính cho dự án cộng đồng. Tham gia xây dựng chiến lược kêu gọi tài trợ, làm việc với đối tác và điều phối hoạt động nội bộ, qua đó phát triển kỹ năng lãnh đạo, lập kế hoạch và quản lý nguồn lực hiệu quả vì mục tiêu xã hội.",
-      img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=600",
+      img: "https://i.postimg.cc/Hxc6PFJx/s4s.jpg",
     },
   ];
 
@@ -58,7 +58,7 @@ const Journey: React.FC = () => {
                 <img
                   src={exp.img}
                   alt={exp.role}
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
                 />
               </div>
               <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary-blue text-white flex items-center justify-center font-black text-xl z-10">

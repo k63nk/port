@@ -10,8 +10,8 @@ const Hero: React.FC = () => {
         <div className="w-48 h-48 md:w-56 md:h-56 organic-shape bg-primary-blue p-1 overflow-hidden shadow-xl ring-4 ring-accent-yellow ring-offset-4 ring-offset-white">
           <img 
             alt="Nguyễn Khánh Huyền" 
-            className="w-full h-full object-cover grayscale brightness-110 hover:grayscale-0 transition-all duration-700" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVU35gTxgesrXcm9BmJ7W5CHtITkX7ieW7JwhiUkrQK1K7LT3DIZps5JkPVxsSXILZ94xX69DP2oj-zgGMjvvDsFrCKbJSprUYNLomDsIkr9eVC8c7hx0y6Au1t13XhMjFYbDG4dh5iKzEH8VFmJxeCg6iuWF1gPBivJNsiZxwUTHEQ4_qujF2Z7GlZcNzhuNVS2Apx6jTeGKECGit7u2WiP2j7LdkQDVr2L2uo1LWF05uqx3Znx17WMJ3l2GV7_HBDCzWhxr1rYdn"
+            className="w-full h-full object-cover brightness-110 transition-all duration-700" 
+            src="https://i.postimg.cc/SNBkTpnF/z7586236485165-ba2f352aeb4e3a32a54d611d28065421.jpg"
           />
         </div>
         <div className="absolute -bottom-4 -right-4 bg-accent-yellow text-primary-blue px-4 py-1 font-black text-xs tracking-widest border-2 border-primary-blue transform rotate-6">
